@@ -1,6 +1,7 @@
 # Bitcoin Price Monitoring Using ESP32
 
 Track Bitcoin prices automatically with an ESP32 and an OLED display.
+* *I've recently posted a tutorial about this project on YouTube. You can watch it [here](https://www.youtube.com/@lucasfernandochannel).* *
 
 ![Photo of a project showing an OLED screen connected to an ESP32.](https://github.com/lucasfernandoprojects/esp32-bitcoin-price-monitoring/blob/main/photos/3.jpg)
 
@@ -28,7 +29,7 @@ To achieve this, I used CoinAPI, a provider of cryptocurrency APIs. First, you'l
 
 ![Form to request a free Market Data API key.](https://github.com/lucasfernandoprojects/esp32-bitcoin-price-monitoring/blob/main/photos/coin-api-2.png)
 
-Once you have the API key, download the **boot.py** and **main.py** files and update them with your specific information.
+Once you have the API key, download the ***boot.py*** and ***main.py*** files and update them with your specific information.
 
 This project is built using MicroPython, and I used Thonny IDE for coding. After downloading the boot.py and main.py files, open them in your preferred IDE.
 
@@ -44,6 +45,12 @@ Next, you'll need to configure your ESP32 board to work with the OLED screen. In
 
 Once you've completed the setup, upload the boot.py and main.py files to your board. The ESP32 will then request the Bitcoin price from the Market Data API every 15 minutes and display the result on the screen.
 
-Ensure you properly attach the OLED screen to the ESP32 board. Since I’m using a 1.14" ST7789 OLED screen, I connected it as follows:
+Ensure you properly attach the OLED screen to the ESP32 board. Since I’m using a 1.14" ST7789 OLED screen, I connected it as follows (adapt the code and connections according to your OLED features):
 
 ![Bitcoin price monitoring schematics.](https://github.com/lucasfernandoprojects/esp32-bitcoin-price-monitoring/blob/main/photos/bitcoin-price-monitoring-schematics.png)
+
+## CONCLUSION
+
+By following these steps, you’ll successfully configure your ESP32 board to display real-time Bitcoin prices on an OLED screen. Leveraging the power of CoinAPI and the flexibility of MicroPython, this project showcases how you can extend the capabilities of your ESP32 with custom firmware and API integrations. With everything set up correctly, your ESP32 will periodically retrieve the latest market data and keep you informed, making this a rewarding project for anyone interested in IoT and cryptocurrency.
+
+If you enjoyed this project, you'll likely appreciate my tutorial on creating an [automated irrigation system using Arduino](https://github.com/lucasfernandoprojects/arduino-soil-moisture-monitoring).
