@@ -43,3 +43,7 @@ Next, open the main.py file and enter your Market Data API key.
 Next, you'll need to configure your ESP32 board to work with the OLED screen. In my case, I used a screen with the **ST7789** chip, which, unfortunately, ESP32 doesn't support by default. If you're using the same screen, you'll need to update your board's firmware. I followed the instructions provided in this [repository](https://github.com/russhughes/st7789_mpy/tree/master?tab=readme-ov-file), which includes all the necessary files and step-by-step instructions to make your ESP32 compatible with ST7789 OLED displays.
 
 Once you've completed the setup, upload the boot.py and main.py files to your board. The ESP32 will then request the Bitcoin price from the Market Data API every 15 minutes and display the result on the screen.
+
+Ensure you properly attach the OLED screen to the ESP32 board. Since I’m using a 1.14" ST7789 OLED screen, I connected it as follows:
+
+![Bitcoin price monitoring schematics.](https://github.com/lucasfernandoprojects/esp32-bitcoin-price-monitoring/blob/main/photos/bitcoin-price-monitoring-schematics.png)
