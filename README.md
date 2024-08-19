@@ -6,9 +6,9 @@ Track Bitcoin prices automatically with an ESP32 and an OLED display.
 
 ## THEORY
 
-One of the most interesting features of the ESP32 board is its Internet connection capacity. Because of this, you can configure your board to make APIs calls and use the responses the way you want. That's exactly the principle behind this project.
+One of the standout features of the ESP32 board is its robust internet connectivity. This capability allows you to configure the board to make API calls and utilize the responses in various ways. This project leverages that very principle.
 
-The ESP32 will make APIs calls to get the currently Bitcoin price in US dollars, from to time to time, and show this information on an OLED screen.
+In this project, the ESP32 will periodically make API calls to retrieve the current Bitcoin price in US dollars and display this information on an OLED screen.
 
 
 <div style="display: flex; flex-wrap: wrap;">
