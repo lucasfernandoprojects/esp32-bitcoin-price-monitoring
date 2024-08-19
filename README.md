@@ -10,7 +10,6 @@ One of the standout features of the ESP32 board is its robust internet connectiv
 
 In this project, the ESP32 will periodically make API calls to retrieve the current Bitcoin price in US dollars and display this information on an OLED screen.
 
-
 <div style="display: flex; flex-wrap: wrap;">
     <img src="https://github.com/lucasfernandoprojects/esp32-bitcoin-price-monitoring/blob/main/photos/1.jpg" width="400" height="250" style="margin: 10px;">
     <img src="https://github.com/lucasfernandoprojects/esp32-bitcoin-price-monitoring/blob/main/photos/2.jpg" width="400" height="250" style="margin: 10px;">
@@ -18,5 +17,13 @@ In this project, the ESP32 will periodically make API calls to retrieve the curr
     <img src="https://github.com/lucasfernandoprojects/esp32-bitcoin-price-monitoring/blob/main/photos/5.jpg" width="400" height="250" style="margin: 10px;">
     <img src="https://github.com/lucasfernandoprojects/esp32-bitcoin-price-monitoring/blob/main/photos/6.jpg" width="400" height="250" style="margin: 10px;">
     <img src="https://github.com/lucasfernandoprojects/esp32-bitcoin-price-monitoring/blob/main/photos/7.jpg" width="400" height="250" style="margin: 10px;">
+</div>
+</br>
+
+To achieve this, I used CoinAPI, a provider of cryptocurrency APIs. First, you'll need to create an account and obtain a free Market Data API key, which allows you to make up to 100 calls at no cost.
+
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="https://github.com/lucasfernandoprojects/esp32-bitcoin-price-monitoring/blob/main/photos/coin-api-1.jpg" width="400" height="250" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/esp32-bitcoin-price-monitoring/blob/main/photos/coin-api-2.jpg" width="400" height="250" style="margin: 10px;">
 </div>
 </br>
