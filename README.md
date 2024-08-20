@@ -52,9 +52,9 @@ Ensure you properly attach the OLED screen to the ESP32 board. Since I’m using
 
 ![Bitcoin price monitoring schematics.](https://github.com/lucasfernandoprojects/esp32-bitcoin-price-monitoring/blob/main/photos/bitcoin-price-monitoring-schematics.png)
 
-If you prefer using the Arduino IDE, I've developed this project within the Arduino ecosystem. Inside the "code" folder, there's another folder named "arduino-main", which contains the ***arduino-main.ino*** file. You can upload this file to your ESP32 using the Arduino IDE — just ensure that all the required libraries are installed. The wiring connections should follow the schematics provided above.
+If you prefer using the Arduino IDE, I've developed this project within the Arduino ecosystem. Inside the "code" folder, there's another folder named "arduino-main", which contains the ***arduino-main.ino*** file. You can load this file to your ESP32 using the Arduino IDE — just ensure that all the required libraries are installed and the wi-fi credentials and API key are updated with your own information.
 
-Additionally, there's no need to update the ESP32 firmware for this project. Unlike with MicroPython, the Arduino IDE natively supports the OLED ST7789 display.
+Additionally, there's no need to update the ESP32 firmware for this project. Unlike with MicroPython, the Arduino IDE natively supports the OLED ST7789 display. Furthermore, the wiring connections should follow the schematics provided above.
 
 <div style="display: flex; flex-wrap: wrap;">
     <img src="https://github.com/lucasfernandoprojects/esp32-bitcoin-price-monitoring/blob/main/photos/18.jpg" width="400" height="250" style="margin: 10px;">
@@ -65,6 +65,8 @@ Additionally, there's no need to update the ESP32 firmware for this project. Unl
     <img src="https://github.com/lucasfernandoprojects/esp32-bitcoin-price-monitoring/blob/main/photos/23.jpg" width="400" height="250" style="margin: 10px;">
 </div>
 </br>
+
+![Arduino credentials you must update.](https://github.com/lucasfernandoprojects/esp32-bitcoin-price-monitoring/blob/main/photos/arduino-credentials.png)
 
 ## CONCLUSION
 
