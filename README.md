@@ -2,7 +2,7 @@
 
 Track Bitcoin prices automatically with an ESP32 and an OLED display. You can use MicroPython or Arduino to code this project.
 
-*I've recently posted a tutorial about this project on YouTube. You can watch it [here](https://www.youtube.com/@lucasfernandochannel).*
+*I've recently posted a tutorial about this project on YouTube. You can watch it [here](https://www.youtube.com/watch?v=31O-T14x7o8).*
 
 ![Photo of a project showing an OLED screen connected to an ESP32.](https://github.com/lucasfernandoprojects/esp32-bitcoin-price-monitoring/blob/main/photos/3.jpg)
 
